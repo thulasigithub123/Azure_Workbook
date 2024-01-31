@@ -1,4 +1,5 @@
 # Azure Networking | Virtual Network | Firewall Policies | NSG and Bastion | Hosting Nginx WebApp from Ubuntu VM
+![image](https://github.com/thulasigithub123/Azure_Workbook/assets/87015668/3e490014-cd05-4d55-8015-abf71413c4b7)
 
 ## Steps:
 
