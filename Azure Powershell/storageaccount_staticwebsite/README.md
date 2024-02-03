@@ -1,3 +1,9 @@
+
+![automating storage account with static website hosting](https://github.com/thulasigithub123/Azure_Workbook/assets/87015668/f1797474-9097-41e7-8fb9-c4bb6360200d)
+
+
+
+
 block blobs are like a flexible box, 
 page blobs are like a notebook where you can easily find and update any page, and 
 append blobs are like a scroll where you keep adding new things to the end
