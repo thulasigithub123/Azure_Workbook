@@ -16,10 +16,9 @@
 
 4. configure virtual network peering at one end and verify if it is reflected at the other end
 ( bidirectional) - means, if we do peering at A to B, then it is already done at B to A
-## virtual network peerings are only if 2 vnets are in Azure 
-## to ip overlapping
-## no self peering
-
+ -  virtual network peerings are only if 2 vnets are in Azure 
+ - to ip overlapping
+ - no self peering
 
 5. once peering is connected, test the PING
 
