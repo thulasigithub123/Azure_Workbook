@@ -5,7 +5,7 @@ $location="centralindia"
 New-Azresourcegroup -name $resourcegroup_name -location $location -force
 $storageAccount = New-AzStorageAccount -ResourceGroupName $resourcegroup_name -AccountName $storageaccount_name -SkuName Standard_LRS -Location $location -AllowBlobPublicAccess 1 
 
-$a=Enable-AzStorageStaticWebsite -Context $storageAccount.Context -IndexDocument index.html
+Enable-AzStorageStaticWebsite -Context $storageAccount.Context -IndexDocument index.html
 
 #to upload the file to azure blob/container storage
 $indexDocument = "~/Desktop/index.html"
