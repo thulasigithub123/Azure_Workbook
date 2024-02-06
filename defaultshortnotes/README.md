@@ -24,3 +24,8 @@ BlobEndPoint       : https://tempstoragethulasi.blob.core.windows.net/
 TableEndPoint      : https://tempstoragethulasi.table.core.windows.net/
 QueueEndPoint      : https://tempstoragethulasi.queue.core.windows.net/
 FileEndPoint       : https://tempstoragethulasi.file.core.windows.net/
+
+
+azure container registry ( acr )
+registryname.azurecr.io
+
