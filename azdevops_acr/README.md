@@ -1,3 +1,8 @@
+
+![azdevops acr (1)](https://github.com/thulasigithub123/Azure_Workbook/assets/87015668/6c6a7e6c-e5da-476f-b0b5-7dd84baa5ca3)
+
+project outline
+
 ![image](https://github.com/thulasigithub123/Azure_Workbook/assets/87015668/dde5fb95-967b-4d86-b68f-4221b188c18a)
 
 
