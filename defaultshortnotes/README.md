@@ -1,11 +1,11 @@
-#azure webapps
+# azure webapps
 thulasi.azurewebsites.net
 
-#azure function apps
+# azure function apps
 thulasi.azurewebsites.net
 
 
-#storages blobs ( container):
+# storages blobs ( container):
 #-----storageaccount.blob.core.windows.net/containername/filename
 samplestoragethulasi.blob.core.windows.net/files/a.png
 
@@ -29,3 +29,6 @@ FileEndPoint       : https://tempstoragethulasi.file.core.windows.net/
 azure container registry ( acr )
 registryname.azurecr.io
 
+
+# SQL db name:
+ - thulasidbserver.database.windows.net
