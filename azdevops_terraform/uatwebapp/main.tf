@@ -40,8 +40,8 @@ resource "azurerm_app_service" "tf_webapp" {
 
   app_settings = {
       # WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-      # DOCKER_REGISTRY_SERVER_URL          = "webreportapp.azurecr.io"
-      # DOCKER_REGISTRY_SERVER_USERNAME     = "webreportapp"
+      # DOCKER_REGISTRY_SERVER_URL          = "XXXX"
+      # DOCKER_REGISTRY_SERVER_USERNAME     = "XXXX"
       # DOCKER_REGISTRY_SERVER_PASSWORD     = ""
       # WEBSITES_CONTAINER_START_TIME_LIMIT = 1800
      }
