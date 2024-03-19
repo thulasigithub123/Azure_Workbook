@@ -42,13 +42,13 @@ resource "azurerm_linux_web_app" "tf_webapp" {
     linux_fx_version="DOCKER|nextapp:1"
    }
 
-  app_settings = {
-      WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
-      DOCKER_REGISTRY_SERVER_URL          = "https://webreportapp.azurecr.io"
-      # DOCKER_REGISTRY_SERVER_USERNAME     = "webreportapp"
-      # DOCKER_REGISTRY_SERVER_PASSWORD     = ""
-      WEBSITES_CONTAINER_START_TIME_LIMIT = 1800
-     }
+  # app_settings = {
+  #     WEBSITES_ENABLE_APP_SERVICE_STORAGE = "false"
+  #     DOCKER_REGISTRY_SERVER_URL          = "https://webreportapp.azurecr.io"
+  #     # DOCKER_REGISTRY_SERVER_USERNAME     = "webreportapp"
+  #     # DOCKER_REGISTRY_SERVER_PASSWORD     = ""
+  #     WEBSITES_CONTAINER_START_TIME_LIMIT = 1800
+  #    }
 
    
 
