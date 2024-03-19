@@ -52,5 +52,4 @@ resource "azurerm_app_service" "tf_webapp" {
     azurerm_service_plan.tf_plan
   ]
 }
-
-# 
+ 
