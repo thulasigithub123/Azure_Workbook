@@ -1,3 +1,10 @@
+# project demo
+
+![Automated Build and Multistage Deployment of Next js Frontend](https://github.com/thulasigithub123/Azure_Workbook/assets/87015668/601f0056-cbbd-4e86-8090-9f5d73225c72)
+
+
+# project design
+![image](https://github.com/thulasigithub123/Azure_Workbook/assets/87015668/16023273-9076-4e48-9148-8775de1f6134)
 
 
 # initialize a next.js app
