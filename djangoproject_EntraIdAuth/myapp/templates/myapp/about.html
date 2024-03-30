@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Inline CSS */
+        body {
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        .update-button {
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            border-radius: 4px;
+            color: #fff;
+            background-color: #337ab7;
+            border-color: #2e6da4;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="{% url 'index' %}">Back to Home</a>
+
+    <div class="container">
+        <h2>VTM Reporting</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Microsoft Patch Classification</th>
+                    <th>Type</th>
+                    <th>Vulnerability</th>
+                    <th>Fix</th>
+                    <th>Steps</th>
+                    <th>Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Critical</td>
+                    <td>Security Update</td>
+                    <td>CVE-2023-12345</td>
+                    <td>Apply security patch</td>
+                    <td>1. Download the patch from Microsoft website.<br>2. Install the patch.<br>3. Restart the system.</td>
+                    <td><button class="update-button">Update</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Important</td>
+                    <td>Feature Update</td>
+                    <td>CVE-2023-54321</td>
+                    <td>Upgrade to the latest version</td>
+                    <td>1. Go to settings.<br>2. Check for updates.<br>3. Download and install updates.</td>
+                    <td><button class="update-button">Update</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Critical</td>
+                    <td>Security Update</td>
+                    <td>CVE-2023-12345</td>
+                    <td>Apply security patch</td>
+                    <td>1. Download the patch from Microsoft website.<br>2. Install the patch.<br>3. Restart the system.</td>
+                    <td><button class="update-button">Update</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Important</td>
+                    <td>Feature Update</td>
+                    <td>CVE-2023-54321</td>
+                    <td>Upgrade to the latest version</td>
+                    <td>1. Go to settings.<br>2. Check for updates.<br>3. Download and install updates.</td>
+                    <td><button class="update-button">Update</button></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Critical</td>
+                    <td>Security Update</td>
+                    <td>CVE-2023-12345</td>
+                    <td>Apply security patch</td>
+                    <td>1. Download the patch from Microsoft website.<br>2. Install the patch.<br>3. Restart the system.</td>
+                    <td><button class="update-button">Update</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Important</td>
+                    <td>Feature Update</td>
+                    <td>CVE-2023-54321</td>
+                    <td>Upgrade to the latest version</td>
+                    <td>1. Go to settings.<br>2. Check for updates.<br>3. Download and install updates.</td>
+                    <td><button class="update-button">Update</button></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

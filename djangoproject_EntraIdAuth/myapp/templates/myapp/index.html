@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Announcements!!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+
+        /* Styles for the navbar */
+        .navbar {
+            background-color: #8f1414;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 20px;
+            transition: color 0.3s, background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: #1ca671;
+            color: #fff;
+        }
+
+        /* Announcement and note styles */
+        .announcement {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .note {
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Card component */
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+        }
+
+        
+        /* Patching container */
+        .patching-container {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #patching-date {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+
+     
+    <div class="navbar">
+        <a href="{% url 'about' %}">Info</a>
+        <a href="{% url 'contact' %}">Admins</a>
+        <!-- You can add additional links here -->
+    </div>
+
+    
+    <div class="patching-container">
+        <h2>Patching Announcement</h2>
+        <p>Patching will occur on: <span id="patching-date">April 1, 2024</span></p>
+    </div>
+
+    <div class="note">
+        <strong>Note:</strong> During the patching process, please ensure to backup your data and avoid performing critical tasks on the system.
+    </div>
+    <!-- Other content of your page goes here -->
+    <div class="card">
+        <h2>Important Information</h2>
+        <p>We are thrilled to announce the launch of our new product line, designed to enhance your experience and meet your evolving needs. Stay tuned for more updates and exciting offerings from our company!
+        </p>
+    </div>
+ 
+
+    <div class="card-container">
+        <div class="card">
+            <h2>Google Chrome Update !!!</h2>
+            <p>With Chrome 100, get ready to surf the web at warp speed with lightning-fast page load times, turbocharged by cutting-edge optimization techniques. Say goodbye to buffering and hello to seamless streaming, as Chrome 100 revolutionizes how you enjoy your favorite content online..</p>
+        </div>
+        
+    </div>
+
+    <script>
+        // Get the current date
+        var currentDate = new Date();
+
+        // Set the patching date
+        var patchingDate = new Date('April 1, 2024');
+
+        // Check if the current date is after the patching date
+        if (currentDate.getTime() > patchingDate.getTime()) {
+            // Update the patching date message
+            document.getElementById('patching-date').textContent = 'Patching has already occurred.';
+        }
+    </script>
+</body>
+</html>
