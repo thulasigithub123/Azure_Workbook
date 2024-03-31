@@ -1,12 +1,12 @@
 
 # Demo
 
-
+![Alt text](<EntraID Auth_django.gif>)
 
 
 # Architecture
  
-
+![Alt text](image-19.png)
 
 Python Django:
 
